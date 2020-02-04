@@ -1,8 +1,9 @@
 package edu.ucsb.cs56.pconrad.menuitem;
+
 import java.util.ArrayList;
 
 public class Menu {
-	
+
     private ArrayList<MenuItem> menuitems;
 
     public Menu() {
@@ -10,16 +11,15 @@ public class Menu {
     }
 
     public void add(MenuItem mi) {
-		// stub
+        // stub
     }
 
     public String csv() {
         return "stub";
     }
 
-
     public String csvSortedByPriceThenName() {
-       return "stub";
+        return "stub";
     }
 
     public String csvSortedByName() {
